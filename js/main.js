@@ -2,8 +2,6 @@
 	
 	'use strict';
 
-
-
 	// iPad and iPod detection	
 	var isiPad = function(){
 		return (navigator.platform.indexOf("iPad") != -1);
@@ -21,8 +19,6 @@
 		$(window).stellar();
 	};
 
-
-
 	// Burger Menu
 	var burgerMenu = function() {
 
@@ -36,12 +32,9 @@
 				$(this).addClass('active');	
 			}
 
-			
-			
 		});
 
 	};
-
 
 	var testimonialCarousel = function(){
 		var owl = $('.owl-carousel-fullwidth');
